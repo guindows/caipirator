@@ -43,6 +43,8 @@ function handleText(textNode)
 	v = v.replace(/\bnegócio\b/g, "trem");
 	v = v.replace(/!/g, ", sô!");
 	v = v.replace(/\bigual\b/g, "quiném");
+	v = v.replace(/\bss\b/g, "ç");
+	v = v.replace(/\bç\b/g, "ss");
 
 
 	v = v.replace(/\bA gente\b/g, "Agente");
